@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/*----------------
+     DEFAULTS   
+----------------*/
+.super-caja {
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 10px #000;
+    margin: 20px auto;
+}
+#container {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -142px;}
+	
+footer, .push {
+	height: 142px;}
+	
+footer {background: #333;}
+
+.container1 {
+    padding:0 0 25px 0;
+}
+
+.container2 {
+    padding: 25px 0;
+}
+
+.container3 {
+    padding: 25px 0;
+}
+
+.container4 {
+    padding: 25px 0;
+}
+
+.individual-list {
+    
+}
+
+.active {
+
+}
+
+.css-change {
+    margin: 40px;
+    color: blue;
+    font-size: 50px;
+}
+
+.hours-container {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.hours-container li {
+    border-bottom: 1px solid black;
+}
+
+.hours-container li:last-child {
+    border-bottom: 0px;
+}
+
+.hours-container li h2 {
+    background-color: #bbbbbb;
+    padding: 15px;
+}
+
+.hours-container li p {
+    padding: 10px;
+    display: none;
+}
+
+.boxes-list li {
+    display: inline-block;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.boxRed {
+    background-color: red;
+}
+
+.boxYellow {
+    background-color: yellow;
+}
+
+.boxGreen {
+    
+    background-color: green;
+}
+
+.boxBlue {
+    
+    background-color: blue;
+}
+
+.box {
+    display: none;
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 5px #000;
+    margin: 30px;
+}
+
+.moveBox-container {
+    position: relative;
+}
+
+.caja {
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+}
+
+
+
+/* copy and paste to appropriate areas where you would like the CSS pie enabled for IE browsers
+	behavior: url(/css/PIE.htc)}
+*/
